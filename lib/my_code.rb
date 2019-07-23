@@ -34,7 +34,7 @@ def map_to_sqaure(array)
 end
 
 def reduce_to_total(array, starting_point = 0)
- total = 0
+ total = starting_point
   index = 0
   while index < array.length do
     total += array[index]
