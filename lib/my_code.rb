@@ -46,7 +46,7 @@ end
 def reduce_to_all_true (array)
   index = 0
   while index < array.length do
-    array[index] ? index+= 1 : false
+    array[index] ? index+= 1 : return false
   end
   true
 end
@@ -54,7 +54,7 @@ end
 def reduce_to_any_true (array)
   index = 0
   while index < array.length do
-    array[index] ? true : index +=1
+    array[index] ? return true : index +=1
   end
   false
 end
