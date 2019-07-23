@@ -33,7 +33,7 @@ def map_to_sqaure(array)
   new_array
 end
 
-def reduce to total(array)
+def reduce_to_total(array, starting_point = 0)
  total = 0
   index = 0
   while index < array.length do
