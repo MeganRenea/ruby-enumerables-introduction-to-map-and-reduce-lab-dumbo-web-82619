@@ -23,7 +23,7 @@ def map_to_double(array)
   new_array
 end
 
-def map_to_sqaure(array)
+def map_to_square(array)
  new_array = []
   index = 0
   while index < array.length do
