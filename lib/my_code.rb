@@ -50,3 +50,11 @@ def reduce_to_all_true (array)
   end
   true
 end
+
+def reduce_to_any_true (array)
+  index = 0
+  while index < array.length do
+    array[index] ? true : index +=1
+  end
+  false
+end
